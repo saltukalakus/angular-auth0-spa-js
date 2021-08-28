@@ -1,5 +1,4 @@
 # Angular 1.x Wrapper for auth0-spa-js
-[![CDNJS version](https://img.shields.io/cdnjs/v/angular-auth0.svg)](https://cdnjs.com/libraries/angular-auth0)
 
 This module provides a thin wrapper for [auth0-spa-js](https://auth0.com/docs/libraries/auth0-spa-js).
 
