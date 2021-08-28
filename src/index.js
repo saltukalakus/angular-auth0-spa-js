@@ -1,14 +1,14 @@
 import angular from 'angular';
-import auth0 from 'auth0-js';
+import {Auth0Client} from '@auth0/auth0-spa-js';
 import version from './version';
 
 if (typeof angular !== 'object') {
   throw new Error('Angular must be loaded.');
 }
 
-if (!angular.isObject(auth0)) {
-  throw new Error('Auth0 must be loaded.');
-}
+//if (!angular.isObject(Auth0Client)) {
+//  throw new Error('Auth0 must be loaded.');
+//}
 
 angular.module('auth0.auth0', []).provider('angularAuth0', angularAuth0);
 
@@ -26,7 +26,7 @@ function angularAuth0() {
         name: 'angular-auth0',
         version: version,
         env: {
-          'auth0-js': auth0.version.raw
+          'auth0-spa-js': "saltuk-test"//auth0.version.raw
         }
       }
     }
@@ -36,7 +36,7 @@ function angularAuth0() {
   this.$get = [
     '$rootScope',
     function($rootScope) {
-      var Auth0Js = new auth0.WebAuth(this.config);
+      var Auth0Js = new Auth0Client(this.config);
       var webAuth = {};
       var functions = [];
 

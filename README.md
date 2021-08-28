@@ -1,12 +1,9 @@
-# Angular 1.x Wrapper for Auth0.js
+# Angular 1.x Wrapper for auth0-spa-js
 [![CDNJS version](https://img.shields.io/cdnjs/v/angular-auth0.svg)](https://cdnjs.com/libraries/angular-auth0)
 
-This module provides a thin wrapper for [auth0.js](https://auth0.com/docs/libraries/auth0js).
+This module provides a thin wrapper for [auth0-spa-js](https://auth0.com/docs/libraries/auth0-spa-js).
 
-### This is angular-auth0 v3 which is to be used with auth0.js v9 and higher. 
-
-- For use with auth0.js v8, install angular-auth0 v2.
-- For use with auth0.js v7, install angular-auth0 v1.
+### This is angular-auth0 v4 which is to be used with auth0-spa-js v1.17 and higher. 
 
 ## Installation
 
@@ -21,18 +18,18 @@ yarn add angular-auth0
 bower install --save angular-auth0
 ```
 
-Ensure that both `auth0.js` and `angular-auth0.js` are loaded on the page.
+Ensure that both `auth0-spa-js` and `angular-auth0.js` are loaded on the page.
 
 ```html
 <!-- installed with npm or yarn --> 
-<script src="node_modules/auth0-js/build/auth0.js"></script>
-<script src="node_modules/angular-auth0/dist/angular-auth0.js"></script>
+<script src="node_modules/@auth0/auth0-spa-js/dist/auth0-spa-js.production.js"></script>
+<script src="node_modules/angular-auth0-spa-js/dist/angular-auth0.js"></script>
 ```
 
 ```html
 <!-- installed with bower --> 
-<script src="bower_components/auth0.js/build/auth0.js"></script>
-<script src="bower_components/angular-auth0/dist/angular-auth0.js"></script>
+<script src="bower_components/@auth0/auth0-spa-js/dist/auth0-spa-js.production.js"></script>
+<script src="bower_components/angular-auth0-spa-js/dist/angular-auth0.js"></script>
 ```
 
 ## Usage
@@ -43,20 +40,22 @@ Bring in the `auth0.auth0` module.
 var app = angular.module('myApp', ['auth0.auth0']);
 ```
 
-Configure Auth0.js by using `angularAuth0Provider`. If you haven't done so yet, [sign up for Auth0](https://auth0.com/signup), create a client app, and get your clientID and domain. To learn more about Auth0.js' API and the options it takes, see the [API documentation](https://auth0.com/docs/libraries/auth0js).
+Configure auth0-spa-js by using `angularAuth0Provider`. If you haven't done so yet, [sign up for Auth0](https://auth0.com/signup), create a client app, and get your clientID and domain. To learn more about Auth0.js' API and the options it takes, see the [API documentation](https://auth0.com/docs/libraries/auth0js).
 
 ```js
 app.config(function(angularAuth0Provider) {
 
   angularAuth0Provider.init({
-    clientID: AUTH0_CLIENT_ID,
-    domain: AUTH0_DOMAIN
+    client_id: AUTH0_CLIENT_ID,
+    domain: AUTH0_DOMAIN,
+    redirect_uri: AUTH0_CALLBACK_URL,
+    scope: 'openid'
   });
   
 });
 ```
 
-Use `auth0.js` from a controller or service.
+Use `auth0-spa-js` from a controller or service.
 
 ```js
 app.controller('loginController', function(angularAuth0) {

@@ -1,7 +1,7 @@
 {
-  "name": "angular-auth0",
-  "version": "3.1.0",
-  "description": "Auth0.js v9 wrapper for Angular.js",
+  "name": "angular-auth0-spa-js",
+  "version": "4.0.0",
+  "description": "Auth0-spa-js wrapper for Angular.js",
   "main": "index.js",
   "scripts": {
     "version": "node update-telemetry && npm run build && git add -A dist && git add -A src/version.js",
@@ -10,20 +10,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/auth0/angular-auth0.git"
+    "url": "git+https://github.com/saltukalakus/angular-auth0-spa-js.git"
   },
   "author": "Auth0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/auth0/angular-auth0/issues"
+    "url": "https://github.com/saltukalakus/angular-auth0-spa-js/issues"
   },
-  "homepage": "https://github.com/auth0/angular-auth0#readme",
+  "homepage": "https://github.com/saltukalakus/angular-auth0-spa-js#readme",
   "devDependencies": {
     "webpack": "^5.37.1",
     "webpack-cli": "^4.7.0"
   },
   "dependencies": {
     "angular": "^1.8.0",
-    "auth0-js": "^9.16.3"
+    "@auth0/auth0-spa-js": "^1.17.0"
   }
 }
