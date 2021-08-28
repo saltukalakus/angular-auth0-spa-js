@@ -1,6 +1,6 @@
 {
   "name": "angular-auth0-spa-js",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Auth0-spa-js wrapper for Angular.js",
   "main": "index.js",
   "scripts": {

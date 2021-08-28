@@ -9,13 +9,13 @@ This module provides a thin wrapper for [auth0-spa-js](https://auth0.com/docs/li
 
 ```bash
 # installation with npm
-npm install --save angular-auth0
+npm install --save angular-auth0-spa-js
 
 # installation with yarn
-yarn add angular-auth0
+yarn add angular-auth0-spa-js
 
 # installation with bower
-bower install --save angular-auth0
+bower install --save angular-auth0-spa-js
 ```
 
 Ensure that both `auth0-spa-js` and `angular-auth0.js` are loaded on the page.
@@ -96,7 +96,7 @@ If you have found a bug or if you have a feature request, please report them at 
 
 ## Author
 
-[Auth0](auth0.com)
+Saltuk Alakus
 
 ## License
 
