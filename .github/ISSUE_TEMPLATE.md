@@ -11,9 +11,9 @@ Description of the bug or feature request and why it's a problem. Consider inclu
 
 ### Prerequisites
 
-- [ ] I have checked the [README documentation](https://github.com/auth0/angular-auth0/blob/master/README.md).
+- [ ] I have checked the [README documentation](https://github.com/saltukalakus/angular-auth0-spa-js/blob/master/README.md).
 - [ ] I have checked the [Auth0 Community](https://community.auth0.com/) for related posts.
-- [ ] I have checked for related or duplicate [Issues](https://github.com/auth0/angular-auth0/issues) and [PRs](https://github.com/auth0/angular-auth0/pulls).
+- [ ] I have checked for related or duplicate [Issues](https://github.com/saltukalakus/angular-auth0-spa-js/issues) and [PRs](https://github.com/saltukalakus/angular-auth0-spa-js/pulls).
 - [ ] I have read the [Auth0 general contribution guidelines](https://github.com/auth0/open-source-template/blob/master/GENERAL-CONTRIBUTING.md).
 - [ ] I have read the [Auth0 Code of Conduct](https://github.com/auth0/open-source-template/blob/master/CODE-OF-CONDUCT.md).
 - [ ] I am reporting this to the correct repository.
@@ -22,7 +22,7 @@ Description of the bug or feature request and why it's a problem. Consider inclu
 
 Please provide the following:
 
-- Version of `angular-auth0` used:
+- Version of `angular-auth0-spa-js` used:
 - Version of Angular used:
 - Browser version tested:
 - Additional modules/plugins/add-ons that might be affecting your instance:

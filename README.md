@@ -24,13 +24,13 @@ Ensure that both `auth0-spa-js` and `angular-auth0.js` are loaded on the page.
 ```html
 <!-- installed with npm or yarn --> 
 <script src="node_modules/@auth0/auth0-spa-js/dist/auth0-spa-js.production.js"></script>
-<script src="node_modules/angular-auth0-spa-js/dist/angular-auth0.js"></script>
+<script src="node_modules/angular-auth0-spa-js/dist/angular-auth0-spa-js.js"></script>
 ```
 
 ```html
 <!-- installed with bower --> 
 <script src="bower_components/@auth0/auth0-spa-js/dist/auth0-spa-js.production.js"></script>
-<script src="bower_components/angular-auth0-spa-js/dist/angular-auth0.js"></script>
+<script src="bower_components/angular-auth0-spa-js/dist/angular-auth0-spa-js.js"></script>
 ```
 
 ## Usage

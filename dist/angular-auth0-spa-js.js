@@ -93,14 +93,14 @@ function angularAuth0() {
     }
     if (config._telemetryInfo) {
       config._telemetryInfo.env = external_angular_default().extend({}, this.config._telemetryInfo.env, {
-        'angular-auth0': version
+        'angular-auth0-spa-js': version
       });
     } else {
       config._telemetryInfo = {
-        name: 'angular-auth0',
+        name: 'angular-auth0-spa-js',
         version: version,
         env: {
-          'auth0-spa-js': "saltuk-test"//auth0.version.raw
+          'auth0-spa-js': "^1.17.0"//auth0.version.raw
         }
       }
     }

@@ -3,8 +3,8 @@ const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
   entry: {
-    'angular-auth0.js': './src/index.js',
-    'angular-auth0.min.js': './src/index.js'
+    'angular-auth0-spa-js.js': './src/index.js',
+    'angular-auth0-spa-js.min.js': './src/index.js'
   },
   output: {
     filename: '[name]',
