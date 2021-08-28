@@ -4,6 +4,8 @@ This module provides a thin wrapper for [auth0-spa-js](https://auth0.com/docs/li
 
 ### This is angular-auth0-spa-js v4 which is to be used with auth0-spa-js v1.17 and higher. 
 
+You may find the reference samples using this library [here](https://github.com/saltukalakus/auth0-angularjs-samples-spa-js)
+
 ## Installation
 
 ```bash
