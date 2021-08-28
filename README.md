@@ -2,7 +2,7 @@
 
 This module provides a thin wrapper for [auth0-spa-js](https://auth0.com/docs/libraries/auth0-spa-js).
 
-### This is angular-auth0 v4 which is to be used with auth0-spa-js v1.17 and higher. 
+### This is angular-auth0-spa-js v4 which is to be used with auth0-spa-js v1.17 and higher. 
 
 ## Installation
 
