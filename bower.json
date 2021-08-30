@@ -3,7 +3,7 @@
   "main": "dist/angular-auth0-spa-js",
   "dependencies": {
     "angular": "*",
-    "auth0/auth0-spa-js": "^1.17.0"
+    "auth0-spa-js": "auth0/auth0-spa-js#^1.17.0"
   },
   "resolutions": {
     "angular": "1.8.0"
