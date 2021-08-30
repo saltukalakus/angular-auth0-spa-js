@@ -16,7 +16,7 @@ npm install --save angular-auth0-spa-js
 yarn add angular-auth0-spa-js
 
 # installation with bower
-bower install --save angular-auth0-spa-js
+bower install --save saltukalakus/angular-auth0-spa-js
 ```
 
 Ensure that both `auth0-spa-js` and `angular-auth0-spa-js.js` are loaded on the page.
