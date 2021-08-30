@@ -70,7 +70,7 @@ var e=function(t,n){return(e=Object.setPrototypeOf||{__proto__:[]}instanceof Arr
 //# sourceMappingURL=auth0-spa-js.production.esm.js.map
 
 ;// CONCATENATED MODULE: ./src/version.js
-/* harmony default export */ var version = ('4.0.0');
+/* harmony default export */ var version = ('4.0.10');
 ;// CONCATENATED MODULE: ./src/index.js
 
 
