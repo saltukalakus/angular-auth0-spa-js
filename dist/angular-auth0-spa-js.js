@@ -89,7 +89,7 @@ external_angular_default().module('auth0.auth0', []).provider('angularAuth0', an
 function angularAuth0() {
   this.init = function(config) {
     if (!config) {
-      throw new Error('Client ID and Domain are required to initialize Auth0.js');
+      throw new Error('Client ID and Domain are required to initialize auth0-spa-js');
     }
     if (config._telemetryInfo) {
       config._telemetryInfo.env = external_angular_default().extend({}, this.config._telemetryInfo.env, {

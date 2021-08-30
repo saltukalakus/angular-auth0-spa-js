@@ -21,7 +21,7 @@ module.exports = {
   },
   externals: {
     angular: 'angular',
-    'auth0-js': 'auth0'
+    'auth0-spa-js': 'auth0'
   },
   mode: 'production',
   optimization: {

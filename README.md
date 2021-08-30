@@ -19,7 +19,7 @@ yarn add angular-auth0-spa-js
 bower install --save angular-auth0-spa-js
 ```
 
-Ensure that both `auth0-spa-js` and `angular-auth0.js` are loaded on the page.
+Ensure that both `auth0-spa-js` and `angular-auth0-spa-js.js` are loaded on the page.
 
 ```html
 <!-- installed with npm or yarn --> 
